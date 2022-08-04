@@ -1,0 +1,57 @@
+a {
+    text-decoration: none;
+
+}
+
+
+html{
+
+    font-family: 'Tajawal', sans-serif;
+
+
+}
+
+
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background: rgb(255, 255, 255);
+}
+text-align: center;
+posision:absolute;
+top:50%
+left:50%
+width:100%;
+
+.container span{
+    color: black;
+    text-transform: uppercase;
+    display: block;
+}
+.text1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 88px;
+    background: white;
+    position: relative;
+    animation:text 4s 1;
+}
+
+@keyframes text {
+
+0%{
+color:white
+
+}
+30%{
+letter-spacing: 25px;
+
+
+}
+85%{
+letter-spacing: 8px; 
+
+}
+}
